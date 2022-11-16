@@ -1,0 +1,106 @@
+* {
+
+    font: bold 14px Arial, sans-serif;
+}
+#calculadora{
+
+    width: 325px;
+    height: auto;
+
+    margin: 100px auto;
+    padding: 20px 20px 9px;
+
+    background: #ea9db7;
+    border-radius: 3px;
+    box-shadow: 0px 4px #e4004c, 0px 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+button{
+
+    width: 66px;
+    height: 36px;
+
+    background: white;
+    border-radius: 3px;
+    box-shadow: 0px 4px rgba(0, 0, 0, 0.2);
+
+    margin: 0 7px 11px 0;
+
+    color: rgb(121, 121, 121);
+    line-height: 36px;
+    text-align: center;
+
+}
+button.operador
+{
+    background: #fee1eb;
+    margin-right: 0;
+}
+button.reset{
+    width: 100px;
+    height: 36px;
+
+    background: #fa838f;
+    box-shadow: 0px 4px #fc4d5f;
+    color: white;
+
+}
+button.eval{
+    width: 100px;
+    height: 36px;
+
+    background: #f4ff92;
+    box-shadow: 0px 4px #aead53;
+    color: #777b5c;
+}
+input{
+    height: 40px;
+    width: 262px;
+    margin: 5px;
+
+    padding: 0 10px;
+
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+    box-shadow: inset 0px 4px rgba(0, 0, 0, 0.2);
+
+    font-size: 17px;
+    line-height: 40px;
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    text-align: right;
+    letter-spacing: 1px
+}
+
+button:hover {
+    background: #f289f6;
+    box-shadow: 0px 4px #d354c0;
+    color: white;
+}
+
+button.eval:hover {
+    background: #b8b150;
+    box-shadow: 0px 4px #767a33;
+    color: #ffffff;
+}
+
+button.reset:hover {
+    background: #f76f78;
+    box-shadow: 0px 4px #cf444d;
+    color: white;
+}
+
+button:active {
+    box-shadow: 0px 0px #d3548d;
+    top: 4px;
+}
+
+button.eval:active {
+    box-shadow: 0px 0px #7a7a33;
+    top: 4px;
+}
+
+button.reset:active {
+    top: 4px;
+    box-shadow: 0px 0px #cf4851;
+}

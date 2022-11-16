@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Calculadora</title>
+		<link rel="stylesheet" type="text/css" href="/Atividade 1/src/code/css/style.css">
+	</head>
+	<body>
+
+	<div id="calculadora" align="center">
+
+		<div>
+			<input id="screen" value="0">
+			<br>
+		</div>
+
+		<div>
+			<button onclick="NumeroButton(this.innerHTML)">1</button>
+			<button onclick="NumeroButton(this.innerHTML)">2</button>
+			<button onclick="NumeroButton(this.innerHTML)">3</button>
+			<button onclick="OperadorButton(this.innerHTML)" class="operador">+</button>
+		</div>
+
+		<div>
+			<button onclick="NumeroButton(this.innerHTML)">4</button>
+			<button onclick="NumeroButton(this.innerHTML)">5</button>
+			<button onclick="NumeroButton(this.innerHTML)">6</button>
+			<button onclick="OperadorButton(this.innerHTML)" class="operador">-</button>
+		</div>
+
+		<div>
+			<button onclick="NumeroButton(this.innerHTML)">7</button>
+			<button onclick="NumeroButton(this.innerHTML)">8</button>
+			<button onclick="NumeroButton(this.innerHTML)">9</button>
+			<button onclick="OperadorButton(this.innerHTML)" class="operador">/</button>
+		</div>
+
+		<div>
+			<button onclick="NumeroButton(this.innerHTML)">0</button>
+			<button onclick="DecimalButton(this.innerHTML)">.</button>
+			<button onclick="PercentagemButton(this.innerHTML)">%</button>
+			<button onclick="OperadorButton(this.innerHTML)" class="operador">x</button>
+		</div>
+
+		<div>
+			<button onclick="NumeroButton(this.innerHTML)">00</button>
+			<button onclick="ParentesesButton(this.innerHTML)">(</button>
+			<button onclick="ParentesesButton(this.innerHTML)">)</button>
+			<button onclick="OperadorButton(this.innerHTML)" class="operador">^</button>
+		</div>
+
+		<div>
+			<button onclick="ResetButton()" class="reset">C</button>
+			<button onclick="EqualsButton()" class="eval">=</button>
+		</div>
+
+	</div>
+
+	<script type="text/javascript" src="/Atividade 1/src/code/JavaScript/calculadora.js"></script>
+
+	</body>
+</html>
